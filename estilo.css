@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  border: 0;
+  margin: 0;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header.topo {
+  width: 100%;
+  display: flex;
+  height: 56px;
+  background-color: #181818;
+}
+
+.topo--container--1 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu--icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+.menu--logo {
+  margin-left: 40px;
+  width: 100.91px;
+  height: 22.381px;
+}
+
+.topo--container--2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+}
+
+.campo--pesquisa {
+  width: 714px;
+  height: 38px;
+  border: 1px solid #2a2a2a;
+  outline: 0;
+  background-color: #0f0f0f;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  color: white;
+  padding-left: 10px;
+}
+
+.botao--pesquisa {
+  height: 38px;
+  border: 0;
+  outline: 0;
+  background-color: #2a2a2a;
+  width: 78px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+
+.icone--botao--pesquisa {
+  width: 24px;
+  height: 24px;
+}
+
+.botao--microfone {
+  width: 38px;
+  height: 38px;
+  border: 0;
+  outline: 0;
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  margin-left: 32px;
+}
+
+.topo--container--3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 34px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #2d3ef5;
+  margin-right: 12px;
+}
+
+.icone--container--3 {
+  width: 29px;
+}
+
+aside.menu {
+  display: flex;
+}
+
+nav {
+  width: 88px;
+  height: calc(100vh - 56px);
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 24px;
+}
+
+.botao--menu {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.nome--botao {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+main.conteudo {
+  width: calc(100% - 88px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  background-image: url("./assets/images/fotoBanner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.meio {
+  max-width: 1150px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.infos--canal {
+  display: flex;
+  height: 148px;
+}
+
+.infos--canal--1 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar--canal {
+  width: 128px;
+  height: 128px;
+  background-color: #2d3ef5;
+  border-radius: 50%;
+}
+
+.canal-container {
+  display: flex;
+  margin-left: 16px;
+  flex-direction: column;
+}
+.nome--canal {
+  color: white;
+  font-family: Roboto;
+  font-size: 30.375px;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 10px;
+}
+
+.nome--canal--container {
+  margin-left: 20px;
+}
+
+.numero--inscritos {
+  color: #888;
+  font-family: Roboto;
+  font-size: 17.585px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.nome--e--icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.infos--canal--2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.subscribe {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border-radius: 65px;
+  background-color: #fff;
+  font-family: Roboto;
+  border: 0;
+  outline: 0;
+}
+
+.menu--container {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.menu--item {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  color: #8f8f8f;
+  border-radius: 2px solid transparent;
+  cursor: pointer;
+}
+
+.menu--item--selecionado {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.lupa--menu {
+  width: 12%;
+}
+
+.trailer--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 118px;
+  width: 1345px;
+  margin-top: 15px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.trailer--1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.trailer--2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 130px;
+  width: 210px;
+  background-color: #2d3ef5;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.nome--video {
+  font-family: Roboto;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.infos--video {
+  font-family: Roboto;
+  color: #8f8f8f;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.descricao--video {
+  font-family: Roboto;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.link--desc {
+  color: rgb(0, 115, 255);
+}
+.sessao--videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: aquamarine;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.icone--play {
+  height: 80px;
+  width: 12px;
+  margin-left: 60px;
+
+}
+
+.play--all {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Roboto;
+  margin-top: 32px;
+  margin-left: 8px;
+  color: white;
+  font-style: normal;
+  font-weight:500;
+
+}
+
+.videos--container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.infos--sessao {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+ 
+}
+
+@media (max-width: 768px) {
+  .trailer--container {
+    flex-direction: column;
+    font-family: Roboto;
+    height: auto;
+    width: 100%;
+  }
+}
